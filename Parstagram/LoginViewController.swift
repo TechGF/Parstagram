@@ -19,6 +19,7 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
     @IBAction func onSignIn(_ sender: Any) {
         let username = usernameField.text!
         let password = passwordField.text!
@@ -27,7 +28,7 @@ class LoginViewController: UIViewController {
             if user != nil {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             }else{
-                print("Error: \(error?.localizedDescription)")
+                print("Error: \(String(describing: error?.localizedDescription))")
             }
         }
     }
@@ -40,7 +41,7 @@ class LoginViewController: UIViewController {
             if success {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             }else{
-                print("Error: \(error?.localizedDescription)")
+                print("Error: \(String(describing: error?.localizedDescription))")
             }
         }
     }
