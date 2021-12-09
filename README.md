@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 
 ## Video Walkthrough
 
-http://g.recordit.co/9k1AeV0ngi.gif
+<img src='http://g.recordit.co/9k1AeV0ngi.gif'><br>
 
 # Parstagram - Part II
 
@@ -35,4 +35,4 @@ The following **required** functionality is completed:
 
 ## Video Walkthrough
 
-http://g.recordit.co/v4JdMi7Tuy.gif
+<img src='http://g.recordit.co/v4JdMi7Tuy.gif'><br>
